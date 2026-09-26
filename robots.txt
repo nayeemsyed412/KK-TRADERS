@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nayeemsyed412.github.io/KK-TRADERS/sitemap.xml
