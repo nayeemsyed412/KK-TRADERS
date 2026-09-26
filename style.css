@@ -243,3 +243,9 @@ h1,h2,h3,.brand strong,.footer-inner strong{font-family:Georgia,"Times New Roman
 @media(max-width:850px){.brand-simple strong{font-size:22px;letter-spacing:3px}.brand-simple small{font-size:7px;letter-spacing:1px;margin-top:5px}}
 @media(max-width:560px){.brand-simple strong{font-size:19px;letter-spacing:2px}.brand-simple small{font-size:6.2px;letter-spacing:.6px;margin-top:4px}}
 @media(max-width:390px){.brand-simple strong{font-size:17px;letter-spacing:1.5px}.brand-simple small{font-size:5.5px;letter-spacing:.4px}}
+
+/* Minimal header mark: KK only */
+.brand-simple{display:flex;align-items:center;line-height:1}
+.brand-simple strong{font-family:Georgia,"Times New Roman",serif;font-size:30px;font-weight:900;letter-spacing:2px;color:#172b5b;white-space:nowrap}
+@media(max-width:850px){.brand-simple strong{font-size:25px;letter-spacing:1.5px}}
+@media(max-width:560px){.brand-simple strong{font-size:22px;letter-spacing:1px}}
