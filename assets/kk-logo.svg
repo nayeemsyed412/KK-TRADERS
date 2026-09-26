@@ -1,18 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 130" role="img" aria-labelledby="title">
 <title id="title">KK Constructions</title>
-<rect width="320" height="130" rx="2" fill="#168fbe"/>
-<!-- brochure-inspired building + KK monogram -->
+<rect width="320" height="130" fill="#168fbe"/>
+<!-- simplified architectural KK mark, proportioned like the brochure -->
 <g fill="#fff">
-  <path d="M20 108V34L58 13v95H20z"/>
-  <path d="M33 108V43l25-14v79H33z" fill="#168fbe"/>
-  <path d="M42 108V51l16-9v66H42z"/>
-  <path d="M60 108V27l24-14v95H60z"/>
-  <path d="M72 108V43l12-7v72H72z" fill="#168fbe"/>
-  <path d="M92 108V29h14v79H92z"/>
-  <path d="M92 74l43-45h22l-45 48 47 31h-23l-44-31z"/>
-  <path d="M139 29h18l-25 28 28 51h-19l-24-44z"/>
-  <path d="M173 29h18v79h-18z"/>
-  <path d="M193 29h18l20 31 20-31h20l-31 43 32 36h-21l-21-26-20 26h-20l30-38z"/>
+  <path d="M24 104V31L58 12v92H24z"/>
+  <path d="M40 104V43l18-10v71H40z" fill="#168fbe"/>
+  <path d="M50 104V50l8-5v59H50z"/>
+  <path d="M65 104V22l25-14v96H65z"/>
+  <path d="M78 104V39l12-7v72H78z" fill="#168fbe"/>
+  <path d="M99 104V25h14v79H99z"/>
+  <path d="M99 72l35-39h21l-36 42 38 29h-22L99 78z"/>
+  <path d="M137 33h20l-22 27 25 44h-20l-21-37z"/>
 </g>
-<text x="160" y="124" text-anchor="middle" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="10" font-weight="800" letter-spacing="3">CONSTRUCTIONS</text>
+<text x="79" y="121" text-anchor="middle" fill="#fff" font-family="Georgia,serif" font-size="8.5" font-weight="700" letter-spacing="1.8">CONSTRUCTIONS</text>
 </svg>
