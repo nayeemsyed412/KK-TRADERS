@@ -367,3 +367,47 @@ footer{background:#092f55;border-top:1px solid rgba(255,255,255,.12)}
 .about-copy p:last-child{margin-bottom:0}
 .about-copy strong{color:var(--brochure-navy);font-weight:800}
 @media(max-width:600px){.about-copy p{font-size:16px;line-height:1.75;margin-bottom:18px}}
+
+
+/* Final consistency pass — spacing, type, buttons and alignment */
+:root{
+  --space-section:88px;
+  --radius-card:10px;
+  --radius-button:8px;
+  --body-size:15px;
+  --body-line:1.7;
+}
+body{font-size:var(--body-size);line-height:var(--body-line)}
+.section{padding:var(--space-section) 0}
+.section-head{width:100%;margin:0 0 36px;padding:0;align-items:flex-end;gap:40px}
+.section-head>div{min-width:0}
+.section-head>p{max-width:560px;margin:0 0 3px;color:#5d7080}
+.section-head h2{margin:6px 0 0}
+.eyebrow{margin:0}
+.product-card,.tech-card,.spec-table-wrap,.gallery-item,.address,.about-card.logo-card{border-radius:var(--radius-card)}
+.product-card,.tech-card{overflow:hidden}
+.btn,.old-material-actions a{border-radius:var(--radius-button);min-height:48px;display:inline-flex;align-items:center;justify-content:center;line-height:1.2}
+.primary,.ghost{min-width:150px}
+.premium-cta{min-width:185px}
+.old-material-section{margin:0;padding:70px 0;background:var(--pro-blue-dark);border-radius:0}
+.old-material-inner h2{font-family:Georgia,"Times New Roman",serif;font-size:clamp(32px,4vw,48px);font-weight:900;letter-spacing:.2px}
+.old-material-inner p{font-family:Arial,Helvetica,sans-serif;font-size:18px;line-height:1.7}
+.old-material-actions a{font-family:Arial,Helvetica,sans-serif;font-size:14px;letter-spacing:.2px}
+.about-copy p{font-size:17px;line-height:1.8}
+.about-card.logo-card{min-height:100%;padding:26px}
+.contact{padding:88px 0}
+.contact-grid{align-items:stretch}
+.address{height:100%;box-sizing:border-box}
+footer{margin-top:0}
+@media(max-width:850px){
+  :root{--space-section:72px}
+  .section-head{gap:18px}
+}
+@media(max-width:600px){
+  :root{--space-section:62px}
+  .section-head{margin-bottom:28px;gap:10px}
+  .section-head>p{font-size:14px}
+  .btn,.old-material-actions a{min-height:46px}
+  .about-copy p{font-size:16px;line-height:1.75}
+  .old-material-section{padding:54px 0}
+}
