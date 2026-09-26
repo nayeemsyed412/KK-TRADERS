@@ -249,3 +249,10 @@ h1,h2,h3,.brand strong,.footer-inner strong{font-family:Georgia,"Times New Roman
 .brand-simple strong{font-family:Georgia,"Times New Roman",serif;font-size:30px;font-weight:900;letter-spacing:2px;color:#172b5b;white-space:nowrap}
 @media(max-width:850px){.brand-simple strong{font-size:25px;letter-spacing:1.5px}}
 @media(max-width:560px){.brand-simple strong{font-size:22px;letter-spacing:1px}}
+
+/* Simple KK STEELS blue-and-white header wordmark */
+.brand-simple{display:flex;align-items:center;line-height:1}
+.brand-simple strong{font-family:Georgia,"Times New Roman",serif;font-size:28px;font-weight:900;letter-spacing:3px;color:#172b5b;white-space:nowrap}
+@media(max-width:850px){.brand-simple strong{font-size:23px;letter-spacing:2.5px}}
+@media(max-width:560px){.brand-simple strong{font-size:20px;letter-spacing:1.8px}}
+@media(max-width:390px){.brand-simple strong{font-size:18px;letter-spacing:1.4px}}
