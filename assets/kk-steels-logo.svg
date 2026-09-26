@@ -1,10 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 150" role="img" aria-labelledby="title desc">
-<title id="title">KK Steels</title>
-<desc id="desc">KK Steels Scaffolding and Fabrications logo</desc>
-<rect x="4" y="4" width="142" height="142" rx="18" fill="#172b5b"/>
-<path d="M35 105V45h18v23l28-23h24L74 77l33 28H82L53 80v25z" fill="#fff"/>
-<path d="M93 45h27l17 20V45h18v60h-18V81l-17-20v44H93z" fill="#fff"/>
-<rect x="172" y="18" width="4" height="114" fill="#168fbe"/>
-<text x="200" y="68" font-family="Georgia, 'Times New Roman', serif" font-size="47" font-weight="800" letter-spacing="4" fill="#172b5b">KK STEELS</text>
-<text x="202" y="103" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="3.2" fill="#0b4f87">SCAFFOLDING &amp; FABRICATIONS</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 1024" role="img" aria-labelledby="title desc">
+<title id="title">KK Steels logo</title>
+<desc id="desc">KK Steels building and steelwork emblem with KK STEELS wordmark.</desc>
+<rect width="1536" height="1024" fill="#05063f"/>
+<!-- Building / construction emblem -->
+<g fill="#f7f7f7">
+  <path d="M250 735V252l108-119v116l108-119v475l-216 130z"/>
+  <path d="M250 252l108-119v178l-108 95z"/>
+  <path d="M466 130l169 92v465L466 735V130z"/>
+  <path d="M635 687l93-77v125l-93 0z"/>
+  <path d="M250 735l485-286v200L250 822z"/>
+  <path d="M760 740V480l126-103v257l-126 106z"/>
+  <!-- stylized K K -->
+  <path d="M830 744L1010 278h104L935 507l157 237H970L875 594l-44 150z"/>
+  <path d="M1042 744l181-466h104l-178 466z"/>
+  <path d="M1110 510l106-232h111l-144 232 144 234h-112z"/>
+  <!-- windows -->
+  <path d="M520 242h28v28h-28zM563 242h28v28h-28zM520 286h28v28h-28zM563 286h28v28h-28zM520 330h28v28h-28zM563 330h28v28h-28zM520 374h28v28h-28zM563 374h28v28h-28zM520 418h28v28h-28zM563 418h28v28h-28zM520 462h28v28h-28zM563 462h28v28h-28zM520 506h28v28h-28zM563 506h28v28h-28zM520 550h28v28h-28zM563 550h28v28h-28z"/>
+  <path d="M1185 455h42v42h-42zM1242 455h42v42h-42zM1185 512h42v42h-42zM1242 512h42v42h-42z"/>
+</g>
+<rect x="245" y="775" width="1040" height="15" fill="#f7f7f7"/>
+<text x="270" y="915" fill="#f7f7f7" font-family="Arial,Helvetica,sans-serif" font-size="116" font-weight="800" letter-spacing="20">KK STEELS</text>
 </svg>
