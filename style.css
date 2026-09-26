@@ -142,22 +142,15 @@ h1,h2,h3,.brand strong,.footer-inner strong{font-family:Georgia,"Times New Roman
 }
 
 
-/* KK STEELS header wordmark — final */
-.brand{display:flex;align-items:center;gap:14px;min-width:0}
-.brand-simple{display:flex;flex-direction:column;justify-content:center;line-height:1;min-width:0}
-.brand-simple strong{display:block;font-family:Georgia,"Times New Roman",serif;font-size:28px;font-weight:900;letter-spacing:3px;color:#172b5b;white-space:nowrap}
-.brand-simple small{display:block;margin-top:6px;font-family:Georgia,"Times New Roman",serif;font-size:9px;font-weight:800;letter-spacing:1.4px;color:#0b4f87;white-space:nowrap}
+/* KK STEELS logo header — final */
+.brand{display:flex;align-items:center;min-width:0;text-decoration:none}
+.brand-logo{display:block;width:250px;height:auto;max-height:64px;object-fit:contain;object-position:left center}
 @media(max-width:850px){
-  .brand{gap:10px}
-  .brand-simple strong{font-size:23px;letter-spacing:2.5px}
-  .brand-simple small{font-size:7px;letter-spacing:1px;margin-top:5px}
+  .brand-logo{width:215px;max-height:58px}
 }
 @media(max-width:560px){
-  .brand{gap:8px}
-  .brand-simple strong{font-size:20px;letter-spacing:1.8px}
-  .brand-simple small{font-size:6.2px;letter-spacing:.6px;margin-top:4px}
+  .brand-logo{width:185px;max-height:52px}
 }
 @media(max-width:390px){
-  .brand-simple strong{font-size:18px;letter-spacing:1.4px}
-  .brand-simple small{font-size:5.5px;letter-spacing:.4px}
+  .brand-logo{width:165px;max-height:48px}
 }
