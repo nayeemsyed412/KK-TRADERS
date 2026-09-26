@@ -154,7 +154,7 @@ h1,h2,h3,.brand strong,.footer-inner strong{font-family:Georgia,"Times New Roman
 .brand-simple{display:flex;flex-direction:column;justify-content:center;line-height:1;min-width:0}
 .brand-simple strong{display:block;font-family:Georgia,"Times New Roman",serif;font-size:28px;font-weight:900;letter-spacing:3px;color:#172b5b;white-space:nowrap}
 .brand-simple small{display:block;margin-top:6px;font-family:Georgia,"Times New Roman",serif;font-size:9px;font-weight:800;letter-spacing:1.4px;color:#0b4f87;white-space:nowrap}
-.hero{background-color:#f7fbff;background-image:url('assets/kk-steels-full-logo.svg');background-repeat:no-repeat;background-size:min(520px,46vw) auto;background-position:82% center}
+.hero{background-color:#f7fbff;background-image:url('assets/kk-steels-exact.jpg');background-repeat:no-repeat;background-size:min(520px,46vw) auto;background-position:82% center}
 .hero-overlay{background:linear-gradient(90deg,rgba(255,255,255,.98) 0%,rgba(255,255,255,.92) 46%,rgba(255,255,255,.25) 100%)}
 .hero-content{color:#172b5b}
 .hero h1{color:#172b5b;text-shadow:none}
