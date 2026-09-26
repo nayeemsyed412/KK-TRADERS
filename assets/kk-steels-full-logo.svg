@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 1024">
+<rect width="1536" height="1024" fill="#05063f"/>
+<g fill="#f8f8f8">
+<path d="M250 748V252L378 126v188l-112 94v340l112-73V126l184 100v510H250z"/>
+<path d="M378 314l-112 94v-155l112-127v188z"/>
+<path d="M566 736V408l104-84v310l-104 102z"/>
+<path d="M250 748l420-282v208L250 822z"/>
+<path d="M760 748l190-470h105L938 505l165 243H980l-100-151-49 151z"/>
+<path d="M1038 748l186-470h105l-184 470z"/>
+<path d="M1110 505l111-227h112l-145 227 145 243h-113z"/>
+<path d="M486 242h28v28h-28zM529 242h28v28h-28zM486 286h28v28h-28zM529 286h28v28h-28zM486 330h28v28h-28zM529 330h28v28h-28zM486 374h28v28h-28zM529 374h28v28h-28zM486 418h28v28h-28zM529 418h28v28h-28zM486 462h28v28h-28zM529 462h28v28h-28zM486 506h28v28h-28zM529 506h28v28h-28zM486 550h28v28h-28zM529 550h28v28h-28z"/>
+<path d="M1180 455h42v42h-42zM1237 455h42v42h-42zM1180 512h42v42h-42zM1237 512h42v42h-42z"/>
+</g>
+<rect x="245" y="775" width="1040" height="15" fill="#f8f8f8"/>
+<text x="270" y="915" fill="#f8f8f8" font-family="Arial,Helvetica,sans-serif" font-size="116" font-weight="800" letter-spacing="20">KK STEELS</text>
+</svg>
