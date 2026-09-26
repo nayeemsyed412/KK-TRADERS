@@ -6,13 +6,13 @@ document.addEventListener('DOMContentLoaded',()=>{
 
   // Real construction photography used across the showcase.
   const photos={
-    scaffold:'https://upload.wikimedia.org/wikipedia/commons/1/12/DFC_4040_Workers_in_safety_gear_assemble_a_large_steel_scaffold_against_a_clear_blue_sky.jpg',
-    scaffoldIndia:'https://upload.wikimedia.org/wikipedia/commons/7/79/Scaffolding_for_a_building_under_construction.jpg',
-    acrow:'https://upload.wikimedia.org/wikipedia/commons/0/06/Acrow_props_support_failing_building_at_Armadale_station.jpg',
-    acrowSingle:'https://upload.wikimedia.org/wikipedia/commons/9/92/Acrow_prop.jpg',
-    formwork:'https://upload.wikimedia.org/wikipedia/commons/4/46/Special_Formwork.jpg',
-    coupler:'https://upload.wikimedia.org/wikipedia/commons/5/5d/Coupler_1.jpg',
-    siteFormwork:'https://upload.wikimedia.org/wikipedia/commons/1/1f/Formwork_for_construction_01.jpg'
+    scaffold:'assets/products/scaffolding-systems.jpg',
+    scaffoldIndia:'assets/products/scaffolding-systems.jpg',
+    acrow:'assets/products/adjustable-props.jpg',
+    acrowSingle:'assets/products/acrow-telescopic-span.jpg',
+    formwork:'assets/products/column-formwork.jpg',
+    coupler:'assets/products/couplers-clamps.jpg',
+    siteFormwork:'assets/products/centering-shuttering.jpg'
   };
   const setImage=(selector,src,alt)=>{const img=document.querySelector(selector);if(img){img.src=src;img.alt=alt;img.loading='lazy'}};
   setImage('.about-card img',photos.scaffoldIndia,'Real steel scaffolding at a building construction site');
