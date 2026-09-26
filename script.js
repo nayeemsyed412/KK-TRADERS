@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded',()=>{
     bangaloreFormwork:'https://cdn.peri.cloud/dam/jcr%3Accd17a7a-258f-4d7d-8e73-8fe201706ea8/5351/naganathapura-plant-bangalore.jpg?auto=webp&fit=bounds&format=pjpg&height=545&optimize=medium&width=970'
   };
   const setImage=(selector,src,alt)=>{const img=document.querySelector(selector);if(img){img.src=src;img.alt=alt;img.loading='lazy'}};
-  // Keep the upper/About image as the exact uploaded KK STEELS logo. Do not replace it with construction photography.\n  setImage('.about-card.logo-card img','assets/kk-steels-exact.jpg','KK Steels exact uploaded logo');\n\n  setImage('.product-card-1 .product-image img',photos.scaffold,'Real steel scaffolding system with workers on site');
+  // Keep the upper/About image as the exact uploaded KK STEELS logo. Do not replace it with construction photography.\n  setImage('.about-card.logo-card img','assets/kk-steels-exact.jpg?v=20260926-2','KK Steels exact uploaded logo');\n\n  setImage('.product-card-1 .product-image img',photos.scaffold,'Real steel scaffolding system with workers on site');
   setImage('.product-card-2 .product-image img',photos.hyderabadFormwork,'Formwork and adjustable support props at a Hyderabad construction project');
   setImage('.product-card-3 .product-image img',photos.indiaFormwork,'Adjustable steel props supporting slab shuttering in India');
   setImage('.product-card-4 .product-image img',photos.bangaloreFormwork,'Formwork installation at a Bangalore construction project');
