@@ -632,3 +632,43 @@ footer{margin-top:0}
     font-size:14px;
   }
 }
+
+
+/* Address actions — clean professional layout */
+.address-actions{
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+  margin-top:24px;
+}
+.address-actions .maps-link,
+.address-actions .email-btn{
+  width:100%;
+  min-height:50px;
+  margin:0;
+  box-sizing:border-box;
+}
+.address-actions .maps-link{
+  justify-content:center;
+  padding:8px 16px 8px 12px;
+}
+.address-actions .email-btn{
+  margin-top:0;
+  text-align:center;
+  border:1px solid var(--pro-blue);
+  box-shadow:none;
+}
+.address-actions .email-btn:hover{
+  background:var(--pro-blue-dark);
+  border-color:var(--pro-blue-dark);
+}
+@media(max-width:600px){
+  .address-actions{
+    gap:10px;
+    margin-top:22px;
+  }
+  .address-actions .maps-link,
+  .address-actions .email-btn{
+    min-height:48px;
+  }
+}
