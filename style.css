@@ -60,3 +60,83 @@ footer{background:var(--brochure-navy);color:#eaf5ff;border-top:4px solid var(--
 .footer-inner span{color:#dcecff}
 .whatsapp-float{background:#20b85a}
 @media(max-width:850px){.nav #nav{top:82px;background:#fff;border-top:3px solid var(--brochure-blue)}.nav #nav a{color:var(--brochure-navy)}}
+
+/* Final brochure typography + logo refinement — blue & white */
+:root{
+  --brochure-blue:#168fbe;
+  --brochure-blue-dark:#0b4f87;
+  --brochure-navy:#172b5b;
+  --brochure-light:#eef8fc;
+  --brochure-line:#cfe5ef;
+}
+body{font-family:Arial,Helvetica,sans-serif;letter-spacing:.01em}
+h1,h2,h3,.brand strong,.footer-inner strong{font-family:Georgia,"Times New Roman",serif}
+.site-header{background:#fff;border-bottom:3px solid var(--brochure-blue);box-shadow:0 4px 18px rgba(11,79,135,.08)}
+.brand{gap:13px;align-items:center}
+.brand-mark{
+  width:78px;height:62px;flex:0 0 78px;
+  border:0;border-radius:0;background:var(--brochure-blue);
+  color:#fff;position:relative;display:flex;flex-direction:column;
+  align-items:center;justify-content:center;line-height:1;
+  clip-path:polygon(0 0,78% 0,100% 50%,78% 100%,0 100%,14% 50%);
+  box-shadow:inset 0 -4px 0 rgba(255,255,255,.18)
+}
+.brand-mark:before{
+  content:"";position:absolute;left:13px;top:11px;width:17px;height:34px;
+  border:3px solid #fff;border-bottom:0;opacity:.9
+}
+.brand-mark:after{
+  content:"";position:absolute;left:16px;top:18px;width:6px;height:6px;
+  background:#fff;box-shadow:10px 0 #fff,0 10px #fff,10px 10px #fff,0 20px #fff,10px 20px #fff;
+  opacity:.85
+}
+.mark-kk{position:relative;z-index:2;font-family:Georgia,"Times New Roman",serif;font-weight:900;font-size:28px;letter-spacing:-4px;margin-left:12px}
+.brand-mark i{position:relative;z-index:2;font-family:Arial,sans-serif;font-style:normal;font-size:6px;letter-spacing:1.6px;font-weight:800;margin:5px 0 0 13px}
+.brand-name{display:flex;flex-direction:column;line-height:1}
+.brand-name strong{font-family:Georgia,"Times New Roman",serif;color:var(--brochure-navy);font-size:27px;font-weight:900;letter-spacing:4px}
+.brand-name small{font-family:Georgia,"Times New Roman",serif;color:var(--brochure-blue-dark);font-size:10px;font-weight:900;letter-spacing:2.2px;margin-top:6px}
+.nav #nav a{font-family:Arial,sans-serif;font-size:12px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;color:var(--brochure-navy)}
+.hero .eyebrow,.eyebrow{font-family:Arial,sans-serif;font-weight:800;letter-spacing:2px;text-transform:uppercase}
+.hero .eyebrow{background:var(--brochure-blue);border-radius:0;padding:8px 13px}
+.hero h1{
+  font-family:Georgia,"Times New Roman",serif;
+  font-weight:900;
+  letter-spacing:.5px;
+  line-height:1.04;
+  text-transform:uppercase;
+  max-width:1050px;
+}
+.hero h1 span{font-weight:700;letter-spacing:.2px}
+.hero-copy{font-family:Arial,sans-serif;font-size:16px;line-height:1.7}
+.section-head h2,.section h2{
+  font-family:Georgia,"Times New Roman",serif;
+  font-weight:900;
+  letter-spacing:.3px;
+  text-transform:uppercase;
+  line-height:1.12;
+}
+.section-head h2{font-size:clamp(31px,4vw,48px)}
+.section-head>p{font-family:Arial,sans-serif;line-height:1.65}
+.product-body h3,.tech-card h3,.spec-table-wrap h3,.specialist-box h3{
+  font-family:Georgia,"Times New Roman",serif;
+  font-weight:800;
+}
+.product-body h3{font-size:24px;letter-spacing:.1px}
+.product-kicker,.product-tag,.product-no{
+  font-family:Arial,sans-serif;font-weight:800;letter-spacing:1.5px
+}
+.tech-card h3{font-size:21px;text-transform:uppercase;letter-spacing:.2px}
+.spec-table-wrap h3{text-transform:uppercase;letter-spacing:.4px}
+.accessory-grid div{font-family:Arial,sans-serif;font-weight:700}
+.specialist-box h3{font-size:22px}
+.contact h2{font-family:Georgia,"Times New Roman",serif;text-transform:uppercase;font-weight:900}
+.footer-inner strong{font-family:Georgia,"Times New Roman",serif;letter-spacing:3px}
+.footer-inner span{font-family:Arial,sans-serif;letter-spacing:1.8px}
+@media(max-width:600px){
+ .brand-mark{width:64px;height:54px;flex-basis:64px}
+ .mark-kk{font-size:23px}
+ .brand-name strong{font-size:21px;letter-spacing:2.5px}
+ .brand-name small{font-size:8px;letter-spacing:1.4px}
+ .hero h1{font-size:40px;line-height:1.08}
+ .section-head h2,.section h2{font-size:32px}
+}
