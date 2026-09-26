@@ -1,0 +1,44 @@
+name: Download construction photos
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/download-construction-images.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  download-images:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download licensed construction photos
+        run: |
+          set -euo pipefail
+          mkdir -p assets/products
+
+          curl -L --fail --retry 3 -o assets/products/scaffolding-systems.jpg "https://upload.wikimedia.org/wikipedia/commons/1/12/DFC_4040_Workers_in_safety_gear_assemble_a_large_steel_scaffold_against_a_clear_blue_sky.jpg"
+          curl -L --fail --retry 3 -o assets/products/adjustable-props.jpg "https://upload.wikimedia.org/wikipedia/commons/0/06/Acrow_props_support_failing_building_at_Armadale_station.jpg"
+          curl -L --fail --retry 3 -o assets/products/acrow-telescopic-span.jpg "https://upload.wikimedia.org/wikipedia/commons/9/92/Acrow_prop.jpg"
+          curl -L --fail --retry 3 -o assets/products/column-formwork.jpg "https://upload.wikimedia.org/wikipedia/commons/4/46/Special_Formwork.jpg"
+          curl -L --fail --retry 3 -o assets/products/couplers-clamps.jpg "https://upload.wikimedia.org/wikipedia/commons/5/5d/Coupler_1.jpg"
+          curl -L --fail --retry 3 -o assets/products/centering-shuttering.jpg "https://upload.wikimedia.org/wikipedia/commons/1/1f/Formwork_for_construction_01.jpg"
+
+          file assets/products/*.jpg
+          ls -lh assets/products
+
+      - name: Commit local images
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/products/*.jpg
+          if git diff --cached --quiet; then
+            echo "No image changes to commit."
+          else
+            git commit -m "Add local real construction photos [skip ci]"
+            git push
+          fi
