@@ -534,3 +534,37 @@ footer{margin-top:0}
   .hero .actions{width:100%;flex-direction:column;align-items:center}
   .hero .actions .btn{width:min(100%,290px)}
 }
+
+
+/* Contact address visibility and clean contact intro */
+.contact-grid>div>p:not(.eyebrow){
+  color:#e7f1f8;
+}
+.address{
+  background:#fff;
+  color:#17324d;
+}
+.address h3{
+  color:#123b6d;
+  font-family:Georgia,"Times New Roman",serif;
+  font-size:30px;
+  font-weight:700;
+}
+.address p{
+  color:#17324d !important;
+  font-family:Arial,Helvetica,sans-serif;
+  font-size:18px;
+  font-weight:700;
+  line-height:1.75;
+  opacity:1;
+  text-shadow:none;
+}
+@media(max-width:600px){
+  .address h3{font-size:27px}
+  .address p{
+    color:#17324d !important;
+    font-size:17px;
+    font-weight:700;
+    line-height:1.7;
+  }
+}
