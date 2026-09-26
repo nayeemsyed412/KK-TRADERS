@@ -256,3 +256,11 @@ h1,h2,h3,.brand strong,.footer-inner strong{font-family:Georgia,"Times New Roman
 @media(max-width:850px){.brand-simple strong{font-size:23px;letter-spacing:2.5px}}
 @media(max-width:560px){.brand-simple strong{font-size:20px;letter-spacing:1.8px}}
 @media(max-width:390px){.brand-simple strong{font-size:18px;letter-spacing:1.4px}}
+
+/* Restored KK STEELS + SCAFFOLDING & FABRICATIONS wordmark */
+.brand-simple{display:flex;flex-direction:column;justify-content:center;line-height:1;min-width:0}
+.brand-simple strong{font-family:Georgia,"Times New Roman",serif;font-size:28px;font-weight:900;letter-spacing:3px;color:#172b5b;white-space:nowrap}
+.brand-simple small{display:block;margin-top:7px;font-family:Georgia,"Times New Roman",serif;font-size:9px;font-weight:800;letter-spacing:1.5px;color:#0b4f87;white-space:nowrap}
+@media(max-width:850px){.brand-simple strong{font-size:23px;letter-spacing:2.5px}.brand-simple small{font-size:7px;letter-spacing:1px;margin-top:5px}}
+@media(max-width:560px){.brand-simple strong{font-size:20px;letter-spacing:1.8px}.brand-simple small{font-size:6.2px;letter-spacing:.6px;margin-top:4px}}
+@media(max-width:390px){.brand-simple strong{font-size:18px;letter-spacing:1.4px}.brand-simple small{font-size:5.5px;letter-spacing:.4px}}
