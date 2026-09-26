@@ -360,3 +360,10 @@ footer{background:#092f55;border-top:1px solid rgba(255,255,255,.12)}
   .address{padding:24px}
   .whatsapp-float{right:14px;bottom:14px}
 }
+
+/* Professional About Us copy */
+.about-copy{max-width:760px}
+.about-copy p{margin:0 0 22px;font-size:18px;line-height:1.8;color:#405b73}
+.about-copy p:last-child{margin-bottom:0}
+.about-copy strong{color:var(--brochure-navy);font-weight:800}
+@media(max-width:600px){.about-copy p{font-size:16px;line-height:1.75;margin-bottom:18px}}
