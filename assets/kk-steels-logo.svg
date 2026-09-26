@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 150" role="img" aria-labelledby="title desc">
+<title id="title">KK Steels</title>
+<desc id="desc">KK Steels Scaffolding and Fabrications logo</desc>
+<rect x="4" y="4" width="142" height="142" rx="18" fill="#172b5b"/>
+<path d="M35 105V45h18v23l28-23h24L74 77l33 28H82L53 80v25z" fill="#fff"/>
+<path d="M93 45h27l17 20V45h18v60h-18V81l-17-20v44H93z" fill="#fff"/>
+<rect x="172" y="18" width="4" height="114" fill="#168fbe"/>
+<text x="200" y="68" font-family="Georgia, 'Times New Roman', serif" font-size="47" font-weight="800" letter-spacing="4" fill="#172b5b">KK STEELS</text>
+<text x="202" y="103" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="3.2" fill="#0b4f87">SCAFFOLDING &amp; FABRICATIONS</text>
+</svg>
