@@ -148,3 +148,18 @@ h1,h2,h3,.brand strong,.footer-inner strong{font-family:Georgia,"Times New Roman
 @media(max-width:850px){.brand-logo-svg{width:215px;max-height:58px}}
 @media(max-width:560px){.brand-logo-svg{width:185px;max-height:52px}}
 @media(max-width:390px){.brand-logo-svg{width:165px;max-height:48px}}
+
+/* Header restored to simple KK STEELS wordmark; logo belongs in the upper hero image area */
+.brand{display:flex;align-items:center;min-width:0;text-decoration:none}
+.brand-simple{display:flex;flex-direction:column;justify-content:center;line-height:1;min-width:0}
+.brand-simple strong{display:block;font-family:Georgia,"Times New Roman",serif;font-size:28px;font-weight:900;letter-spacing:3px;color:#172b5b;white-space:nowrap}
+.brand-simple small{display:block;margin-top:6px;font-family:Georgia,"Times New Roman",serif;font-size:9px;font-weight:800;letter-spacing:1.4px;color:#0b4f87;white-space:nowrap}
+.hero{background-color:#f7fbff;background-image:url('assets/kk-steels-logo.svg');background-repeat:no-repeat;background-size:min(520px,46vw) auto;background-position:82% center}
+.hero-overlay{background:linear-gradient(90deg,rgba(255,255,255,.98) 0%,rgba(255,255,255,.92) 46%,rgba(255,255,255,.25) 100%)}
+.hero-content{color:#172b5b}
+.hero h1{color:#172b5b;text-shadow:none}
+.hero h1 span{color:#0b4f87}
+.hero-copy{color:#405b73}
+@media(max-width:850px){.brand-simple strong{font-size:23px;letter-spacing:2.5px}.brand-simple small{font-size:7px;letter-spacing:1px;margin-top:5px}.hero{background-size:min(430px,52vw);background-position:90% center}.hero-overlay{background:linear-gradient(90deg,rgba(255,255,255,.98) 0%,rgba(255,255,255,.9) 58%,rgba(255,255,255,.35) 100%)}}
+@media(max-width:560px){.brand-simple strong{font-size:20px;letter-spacing:1.8px}.brand-simple small{font-size:6.2px;letter-spacing:.6px;margin-top:4px}.hero{background-size:260px auto;background-position:center 86%;min-height:650px}.hero-content{padding-bottom:250px}.hero-overlay{background:linear-gradient(180deg,rgba(255,255,255,.98) 0%,rgba(255,255,255,.93) 56%,rgba(255,255,255,.45) 100%)}}
+@media(max-width:390px){.brand-simple strong{font-size:18px;letter-spacing:1.4px}.brand-simple small{font-size:5.5px;letter-spacing:.4px}}
