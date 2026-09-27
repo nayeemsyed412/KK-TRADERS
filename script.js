@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded',()=>{
     menuBtn.addEventListener('click',()=>nav.classList.toggle('open'));
     nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>nav.classList.remove('open')));
   }
+
   const year=document.querySelector('#year');
   if(year) year.textContent=new Date().getFullYear();
 
@@ -26,5 +27,42 @@ document.addEventListener('DOMContentLoaded',()=>{
 
   // Keep the exact uploaded KK Steels logo in the About section.
   const logo=document.querySelector('.about-card.logo-card img');
-  if(logo){logo.src='assets/kk-steels-exact.jpg?v=20260926-2';logo.alt='KK Steels exact uploaded logo';}
+  if(logo){
+    logo.src='assets/kk-steels-exact.jpg?v=20260926-2';
+    logo.alt='KK Steels exact uploaded logo';
+  }
+
+  // PostgreSQL-backed enquiry form.
+  const form=document.querySelector('#enquiry-form');
+  const status=document.querySelector('#enquiry-status');
+  const submit=form?.querySelector('.enquiry-submit');
+  const apiBase=(window.KK_API_BASE_URL||'https://kk-traders-api.onrender.com').replace(/\/$/,'');
+  if(form&&status&&submit){
+    form.addEventListener('submit',async(event)=>{
+      event.preventDefault();
+      status.textContent='Sending your enquiry...';
+      status.className='enquiry-status';
+      submit.disabled=true;
+
+      const data=Object.fromEntries(new FormData(form).entries());
+      try{
+        const response=await fetch(apiBase+'/api/enquiries',{
+          method:'POST',
+          headers:{'Content-Type':'application/json'},
+          body:JSON.stringify(data)
+        });
+        const result=await response.json().catch(()=>({}));
+        if(!response.ok||!result.ok) throw new Error(result.error||'Unable to send your enquiry.');
+        form.reset();
+        status.textContent='Thank you. Your enquiry has been received.';
+        status.classList.add('success');
+      }catch(error){
+        console.error('Enquiry submission failed:',error);
+        status.textContent='We could not send the enquiry. Please call or WhatsApp us.';
+        status.classList.add('error');
+      }finally{
+        submit.disabled=false;
+      }
+    });
+  }
 });
