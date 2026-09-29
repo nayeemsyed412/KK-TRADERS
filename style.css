@@ -725,3 +725,30 @@ footer{margin-top:0}
   .catalogue-note{font-size:12px}
   .catalogue-footer{padding:24px 20px}
 }
+
+
+/* Product photos within the consolidated catalogue */
+.catalogue-photo{
+  height:190px;
+  margin:0 0 22px;
+  overflow:hidden;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border:1px solid #e1e9ef;
+  border-radius:9px;
+  background:linear-gradient(135deg,#f8fafc,#edf3f7);
+}
+.catalogue-photo img{
+  display:block;
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  padding:10px;
+  box-sizing:border-box;
+  transition:transform .25s ease;
+}
+.catalogue-card:hover .catalogue-photo img{transform:scale(1.025)}
+@media(max-width:600px){
+  .catalogue-photo{height:165px;margin-bottom:18px}
+}
